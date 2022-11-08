@@ -3,20 +3,16 @@ import { Link } from 'react-router-dom';
 
 const ErrorPage = () => {
   return (
-    <div>
-      <section className="flex flex-col items-center justify-center text-center h-screen">
-        <h1 className="uppercase font-bold text-3xl tracking-wide mb-5 md:text-5xl lg:text-7xl">
-          Error Page
-        </h1>
-        <button>
-          <Link
-            to="/"
-            className="py-2 px-6 rounded shadow text-white bg-black hover:bg-transparent border-2 border-black transition-all duration-500 hover:text-black font-bold"
-          >
-            Go Home
-          </Link>
-        </button>
-      </section>
+    <div className="flex flex-col items-center justify-center h-screen">
+      <h1 className="uppercase font-bold text-3xl tracking-wide mb-5 md:text-5xl ">
+        Error 404 | Page Not Found
+      </h1>
+      <Link
+        to="/"
+        className="py-2 px-6 rounded shadow text-white bg-black hover:bg-transparent border-2 border-black transition-all duration-500 hover:text-black font-bold"
+      >
+        Back to homepage
+      </Link>
     </div>
   );
 };

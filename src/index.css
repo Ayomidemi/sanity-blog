@@ -9,10 +9,12 @@ body {
 img {
   max-width: 100%;
   margin: auto;
+  object-fit: cover;
 }
 
 .block__content p {
   line-height: 1.6;
+  margin: 1rem 0;
 }
 
 .block__content h2 {
@@ -25,6 +27,7 @@ img {
   img.blog__image {
     height: 600px;
     width: 100%;
+    object-fit: cover;
   }
 
   .block__content p {
